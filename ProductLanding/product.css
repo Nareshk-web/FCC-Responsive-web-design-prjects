@@ -1,0 +1,53 @@
+#nav-bar
+{
+  float:right;
+  padding-top:em;
+  position:fixed;
+  display:flex;
+  margin:auto;
+}
+#header
+{
+  text-align:;
+  position:fixed; 
+  margin:auto;
+}
+#header-img
+{
+  
+}
+body
+{
+  background:cyan;
+}
+#about
+{
+background-color:green;
+}
+#home
+{
+  background-color:yellow;  
+}
+#contact
+{
+  background-color:darkgrey;
+}
+#form
+{
+  text-align:center;
+  padding:10px;
+}
+#footer
+{
+  text-align:center;
+  background-color:#a14d85
+}
+#video
+{
+  text-align:center;
+}
+@media only screen and (max-width: 700px) {
+    body {
+        background-color:cyan;
+    }
+}

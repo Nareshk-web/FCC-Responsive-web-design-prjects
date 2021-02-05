@@ -1,0 +1,58 @@
+<html>
+<head>  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+        </style>
+    <link rel="stylesheet" type="text/css" href="survey.css"> 
+<title>Survey-form</title>
+<div>
+<header>
+    <h1 id="title"class="text-center">Blood Donation Form</h1>
+    <p id="description"class="description-text">Thank you for your being here,donating blood is one of the best volunteer work to do in our world<br>please regester yourself then we will get back to you asap.</p> 
+</header>
+</div>
+</head>
+<body>
+    <section>
+    <div id="container">
+     <form id="Survey-form">
+    <label for="name"id="name-label">Name:</label>
+    <input id="name"type="text"placeholder="enter your name" required>
+    <label for="email"id="email-label">Email:</label>
+    <input id="email"type="email"placeholder="enter your email" required>
+    <label for="mobile"id="number-label">Mobile:</label>
+    <input type="number"id="mobile"placeholder="enter your mobile"required>
+    <label for="age">Age:</label>
+    <input type="number"id="age"placeholder="enter your option"required>
+    <label for="address">Address:</label>
+    <input type="text" type="number"id="address"placeholder="enter your address"required>
+    <dropdown id="dropdown">choose gender<br>
+        <input id="gender"type="radio"name="gender">male:<br>
+        <input id="gender"type="radio"name="gender">female:<br>
+        <input id="gender"type="radio"name="gender">dont want to mention:
+    </dropdown>
+    </form>
+    </div>
+</section>
+<div>
+<section id="observation">
+    <h2 id="head-text">habbits</h2>
+    <label for="habit">Do you smoke</label>
+    <input id="habit"type="radio"name="habit">yes
+    <input type="radio"id="habit"name="habit">No<br>
+    <label for="habit2">Do you Drink</label>
+    <input type="radio"id="habit2"name="habit2">yes
+    <input type="radio"id="habit2"name="habit2">No   
+</section>
+</div>
+
+<div id="enquiry">
+    <h2 id="headoftextarea">FeedBack</h2>
+    <textarea id="feedback"rows="4"cols="50"placeholder="submit your feedback here">
+    </textarea>
+</div>
+<div id="submit">
+    <button type="submit"id="submit"placeholder="enter">submit</button>
+</div>
+</body>
+</html>

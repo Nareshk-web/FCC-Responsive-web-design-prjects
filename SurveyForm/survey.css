@@ -1,0 +1,64 @@
+body{
+    background-color:white; 
+    background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80");
+}
+#container{
+  margin-left:25%;
+  margin-top:5%;
+  margin-bottom: auto;
+  margin-right:40%;
+}
+#Survey-form{
+    display: grid;
+    background-color: teal;
+    border-radius: 10px;
+    color:black;
+    width: 150%;
+    height: 60%;
+    border-style: solid;
+    border-width: 8px;  
+
+}
+#title{
+  text-align: center;  
+  font-family: 'Berkshire Swash', cursive;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  color: gold;
+  border-color: black;
+}
+#description{
+    font-family:'Berkshire Swash', cursive;;
+    color:goldenrod;
+    text-align: center;
+    font-size: large;
+}
+#observation{
+    border-style:solid;
+    margin-left:40%;
+    margin-right:40%;
+    border-radius: 15px;
+}
+#head-text{
+    text-align: center;
+    border-color:black;
+    border-style: solid;
+    border-radius: 10px;
+}
+#feedback{
+    border-color: indigo;
+    border-style:solid;
+    border-radius:10px;
+}
+#enquiry{
+    text-align: center;
+}
+#submit{
+text-align: center;
+color: orangered;
+border-radius: 10px;
+}
+#headoftextarea{
+    color: goldenrod;
+}
